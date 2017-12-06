@@ -3,7 +3,7 @@
 //  CustomShareUIUITests
 //
 //  Created by chen on 2014/12/6.
-//  Copyright © 2017年 Gorpeln. All rights reserved.
+//  Copyright © 2014年 Gorpeln. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
