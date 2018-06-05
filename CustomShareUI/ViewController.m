@@ -7,7 +7,7 @@
 //
 
 /*********************************************************
- *  gitHub  :  https://github.com/GorpelnChen            *
+ *  gitHub  :  https://github.com/Gorpeln                *
  *********************************************************/
 
 
@@ -24,17 +24,15 @@
     [super viewDidLoad];
     
     UIButton *shareStyleOne=[[UIButton alloc]initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 100)];
-    shareStyleOne.backgroundColor=[UIColor cyanColor];
     [shareStyleOne setTitle:@"shareStyleOne" forState:UIControlStateNormal];
-    [shareStyleOne setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [shareStyleOne setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [shareStyleOne addTarget:self action:@selector(shareStyleOneClick) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:shareStyleOne];
     
     
-    UIButton *shareStyleTwo=[[UIButton alloc]initWithFrame:CGRectMake(0, 300, self.view.frame.size.width, 100)];
-    shareStyleTwo.backgroundColor=[UIColor yellowColor];
+    UIButton *shareStyleTwo=[[UIButton alloc]initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 100)];
     [shareStyleTwo setTitle:@"shareStyleTwo" forState:UIControlStateNormal];
-    [shareStyleTwo setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [shareStyleTwo setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [shareStyleTwo addTarget:self action:@selector(shareStyleTwoClick) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:shareStyleTwo];
